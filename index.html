@@ -1,0 +1,851 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portafolio académico de Carlos Huaman, estudiante de Ingeniería de Software con Inteligencia Artificial.">
+
+    <title>Carlos Huaman | Portafolio</title>
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- =================================
+         ENCABEZADO Y MENU
+    ================================== -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                Dev<span>.</span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn"
+                    aria-label="Abrir menú"
+                    aria-expanded="false">
+
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+
+                <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+
+                <li><a href="#educacion" class="nav-link">Educación</a></li>
+
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+
+            </ul>
+            <!-- BOTÓN PARA CAMBIAR EL TEMA -->
+            <button id="themeBtn" class="theme-btn"
+                    aria-label="Cambiar a modo claro"
+                    title="Cambiar tema">
+
+                <i class="fas fa-sun"></i>
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =================================
+             INICIO
+        ================================== -->
+
+        <section id="inicio" class="inicio">
+
+            <div class="container inicio-contenido reveal">
+
+                <p class="saludo">
+                    <span class="punto"></span>
+                    BIENVENIDO A MI PORTAFOLIO
+                </p>
+
+                <h1>
+                    Hola, soy <span>Carlos Huaman Leandro</span>
+                </h1>
+
+                <h2>
+                    Estudiante de Ingeniería de Software
+                    con Inteligencia Artificial
+                </h2>
+
+                <p class="inicio-descripcion">
+
+                    Me interesa el desarrollo de software,
+                    la programación y la inteligencia artificial.
+                    Me gusta crear soluciones tecnológicas,
+                    resolver problemas y adquirir nuevos conocimientos.
+
+                </p>
+
+                <div class="inicio-botones">
+
+                    <a href="#proyectos" class="btn btn-principal">
+
+                        Ver mis proyectos
+
+                        <i class="fas fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+                <div class="inicio-linea"></div>
+
+                <p class="inicio-subtexto">
+                    Explorando nuevas tecnologías y desarrollando
+                    soluciones mediante la programación.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             SOBRE MI
+        ================================== -->
+
+        <section id="sobre-mi" class="seccion">
+
+            <div class="container reveal">
+
+                <div class="encabezado-seccion">
+
+                    <span class="etiqueta">CONÓCEME</span>
+
+                    <h2>Sobre <span>mí</span></h2>
+
+                    <p>
+                        Un poco sobre mi formación, intereses y objetivos.
+                    </p>
+
+                </div>
+
+                <div class="sobre-mi-card">
+
+                    <div class="sobre-mi-texto">
+
+                        <h3>¿Quién soy?</h3>
+
+                        <p>
+                            Soy estudiante de Ingeniería de Software
+                            con Inteligencia Artificial en SENATI.
+                            Tengo interés en el desarrollo de aplicaciones,
+                            programación, bases de datos y soluciones
+                            basadas en inteligencia artificial.
+                        </p>
+
+                        <p>
+                            Durante mi formación académica he desarrollado
+                            proyectos utilizando diferentes lenguajes
+                            de programación y herramientas tecnológicas,
+                            fortaleciendo mis conocimientos mediante
+                            la práctica.
+                        </p>
+
+                        <p>
+                            Me caracterizo por mi responsabilidad,
+                            pensamiento lógico, capacidad para resolver
+                            problemas y compromiso con el aprendizaje
+                            continuo.
+                        </p>
+
+                    </div>
+
+                    <div class="sobre-mi-datos">
+
+                        <div class="dato">
+
+                            <i class="fas fa-graduation-cap"></i>
+
+                            <div>
+                                <h4>Formación</h4>
+                                <p>Ingeniería de Software con IA</p>
+                            </div>
+
+                        </div>
+
+                        <div class="dato">
+
+                            <i class="fas fa-code"></i>
+
+                            <div>
+                                <h4>Área de interés</h4>
+                                <p>Desarrollo de software</p>
+                            </div>
+
+                        </div>
+
+                        <div class="dato">
+
+                            <i class="fas fa-brain"></i>
+
+                            <div>
+                                <h4>Especialidad de interés</h4>
+                                <p>Inteligencia artificial</p>
+                            </div>
+
+                        </div>
+
+                        <div class="dato">
+
+                            <i class="fas fa-map-marker-alt"></i>
+
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Lima, Perú</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             HABILIDADES
+        ================================== -->
+
+        <section id="habilidades" class="seccion seccion-alterna">
+            <div class="container reveal">
+
+                <div class="encabezado-seccion">
+                    <span class="etiqueta">CONOCIMIENTOS</span>
+                    <h2>Mis <span>habilidades</span></h2>
+                    <p>
+                        Tecnologías y herramientas que he utilizado durante mi
+                        formación académica. Haz clic en cada una para conocer más.
+                    </p>
+                </div>
+
+                <div class="habilidades-grid">
+
+                    <div class="habilidad-card">
+                        <div class="habilidad-titulo">
+                            <i class="fas fa-code"></i>
+                            <h3>Programación</h3>
+                        </div>
+                        <div class="tecnologias">
+                            <button class="tecnologia-btn" data-tecnologia="Python">Python</button>
+                            <button class="tecnologia-btn" data-tecnologia="Java">Java</button>
+                            <button class="tecnologia-btn" data-tecnologia="JavaScript">JavaScript</button>
+                            <button class="tecnologia-btn" data-tecnologia="PHP">PHP</button>
+                            <button class="tecnologia-btn" data-tecnologia="SQL">SQL</button>
+                        </div>
+                    </div>
+
+                    <div class="habilidad-card">
+                        <div class="habilidad-titulo">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Desarrollo web</h3>
+                        </div>
+                        <div class="tecnologias">
+                            <button class="tecnologia-btn" data-tecnologia="HTML5">HTML5</button>
+                            <button class="tecnologia-btn" data-tecnologia="CSS3">CSS3</button>
+                            <button class="tecnologia-btn" data-tecnologia="Bootstrap">Bootstrap</button>
+                            <button class="tecnologia-btn" data-tecnologia="React">React</button>
+                        </div>
+                    </div>
+
+                    <div class="habilidad-card">
+                        <div class="habilidad-titulo">
+                            <i class="fas fa-brain"></i>
+                            <h3>Inteligencia artificial</h3>
+                        </div>
+                        <div class="tecnologias">
+                            <button class="tecnologia-btn" data-tecnologia="TensorFlow">TensorFlow</button>
+                            <button class="tecnologia-btn" data-tecnologia="Keras">Keras</button>
+                            <button class="tecnologia-btn" data-tecnologia="Scikit-learn">Scikit-learn</button>
+                            <button class="tecnologia-btn" data-tecnologia="YOLO">YOLO</button>
+                            <button class="tecnologia-btn" data-tecnologia="OpenCV">OpenCV</button>
+                        </div>
+                    </div>
+
+                    <div class="habilidad-card">
+                        <div class="habilidad-titulo">
+                            <i class="fas fa-database"></i>
+                            <h3>Bases de datos</h3>
+                        </div>
+                        <div class="tecnologias">
+                            <button class="tecnologia-btn" data-tecnologia="MySQL">MySQL</button>
+                            <button class="tecnologia-btn" data-tecnologia="PostgreSQL">PostgreSQL</button>
+                            <button class="tecnologia-btn" data-tecnologia="SQL Server">SQL Server</button>
+                        </div>
+                    </div>
+
+                    <div class="habilidad-card">
+                        <div class="habilidad-titulo">
+                            <i class="fas fa-tools"></i>
+                            <h3>Herramientas</h3>
+                        </div>
+                        <div class="tecnologias">
+                            <button class="tecnologia-btn" data-tecnologia="Git">Git</button>
+                            <button class="tecnologia-btn" data-tecnologia="GitHub">GitHub</button>
+                            <button class="tecnologia-btn" data-tecnologia="VS Code">VS Code</button>
+                            <button class="tecnologia-btn" data-tecnologia="NetBeans">NetBeans</button>
+                            <button class="tecnologia-btn" data-tecnologia="Jupyter Notebook">Jupyter Notebook</button>
+                        </div>
+                    </div>
+
+                    <div class="habilidad-card">
+                        <div class="habilidad-titulo">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Análisis de datos</h3>
+                        </div>
+                        <div class="tecnologias">
+                            <button class="tecnologia-btn" data-tecnologia="Pandas">Pandas</button>
+                            <button class="tecnologia-btn" data-tecnologia="NumPy">NumPy</button>
+                            <button class="tecnologia-btn" data-tecnologia="Procesamiento de imágenes">Procesamiento de imágenes</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Ventana de información de habilidades -->
+        <div class="modal-habilidad" id="modalHabilidad">
+            <div class="modal-contenido" role="dialog" aria-modal="true"
+                aria-labelledby="modalTitulo">
+
+                <button class="modal-cerrar" id="cerrarModal"
+                        aria-label="Cerrar ventana">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="modal-icono">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+
+                <h2 id="modalTitulo">Nombre de la tecnología</h2>
+
+                <div class="modal-seccion">
+                    <h3><i class="fas fa-info-circle"></i> ¿Qué es?</h3>
+                    <p id="modalDescripcion"></p>
+                </div>
+
+                <div class="modal-seccion">
+                    <h3><i class="fas fa-cogs"></i> ¿Para qué se utiliza?</h3>
+                    <p id="modalUso"></p>
+                </div>
+
+                <div class="modal-seccion">
+                    <h3><i class="fas fa-graduation-cap"></i> Conocimientos relacionados</h3>
+                    <p id="modalConocimientos"></p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- =================================
+             PROYECTOS
+        ================================== -->
+
+        <section id="proyectos" class="seccion">
+
+            <div class="container reveal">
+
+                <div class="encabezado-seccion">
+
+                    <span class="etiqueta">TRABAJOS REALIZADOS</span>
+
+                    <h2>Mis <span>proyectos</span></h2>
+
+                    <p>
+                        Algunos de los proyectos que he desarrollado
+                        durante mi formación académica.
+                    </p>
+
+                </div>
+
+
+                <div class="proyectos-grid">
+
+
+                    <!-- PROYECTO 1 -->
+
+                    <article class="proyecto-card">
+
+                        <div class="proyecto-superior">
+
+                            <div class="proyecto-icono">
+                                <i class="fas fa-mask"></i>
+                            </div>
+
+                            <span class="proyecto-numero">01</span>
+
+                        </div>
+
+                        <h3>Detector de mascarillas</h3>
+
+                        <p>
+                            Desarrollé un sistema de detección de
+                            mascarillas utilizando un modelo de
+                            inteligencia artificial entrenado con
+                            aproximadamente 7500 imágenes de personas
+                            con y sin mascarilla. Implementé la detección
+                            mediante una cámara en tiempo real.
+                        </p>
+
+                        <div class="proyecto-tecnologias">
+
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>TensorFlow</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROYECTO 2 -->
+
+                    <article class="proyecto-card">
+
+                        <div class="proyecto-superior">
+
+                            <div class="proyecto-icono">
+                                <i class="fas fa-users"></i>
+                            </div>
+
+                            <span class="proyecto-numero">02</span>
+
+                        </div>
+
+                        <h3>Detección y conteo de personas</h3>
+
+                        <p>
+                            Implementé un sistema de detección de
+                            personas en videos utilizando YOLO.
+                            Trabajé con áreas delimitadas para
+                            identificar y contar personas dentro
+                            de una zona específica.
+                        </p>
+
+                        <div class="proyecto-tecnologias">
+
+                            <span>Python</span>
+                            <span>YOLO</span>
+                            <span>OpenCV</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROYECTO 3 -->
+
+                    <article class="proyecto-card">
+
+                        <div class="proyecto-superior">
+
+                            <div class="proyecto-icono">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+
+                            <span class="proyecto-numero">03</span>
+
+                        </div>
+
+                        <h3>Sistema de gestión de estudiantes</h3>
+
+                        <p>
+                            Desarrollé una aplicación de escritorio
+                            que permite registrar, consultar, modificar
+                            y eliminar información de estudiantes.
+                            Implementé una interfaz gráfica y conexión
+                            con una base de datos.
+                        </p>
+
+                        <div class="proyecto-tecnologias">
+
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>Swing</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROYECTO 4 -->
+
+                    <article class="proyecto-card">
+
+                        <div class="proyecto-superior">
+
+                            <div class="proyecto-icono">
+                                <i class="fas fa-pills"></i>
+                            </div>
+
+                            <span class="proyecto-numero">04</span>
+
+                        </div>
+
+                        <h3>Botica Nova Salud</h3>
+
+                        <p>
+                            Proyecto académico orientado al desarrollo
+                            de un software web para gestionar productos,
+                            controlar el inventario y administrar las
+                            ventas de una botica, facilitando la
+                            organización de sus operaciones.
+                        </p>
+
+                        <div class="proyecto-tecnologias">
+
+                            <span>Desarrollo web</span>
+                            <span>Frontend</span>
+                            <span>Backend</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROYECTO 5 -->
+
+                    <article class="proyecto-card">
+
+                        <div class="proyecto-superior">
+
+                            <div class="proyecto-icono">
+                                <i class="fas fa-recycle"></i>
+                            </div>
+
+                            <span class="proyecto-numero">05</span>
+
+                        </div>
+
+                        <h3>ECOLIM - Gestión de residuos</h3>
+
+                        <p>
+                            Diseñé en equipo una aplicación móvil para operarios
+                            encargados de la recolección de residuos. Incluye
+                            inicio de sesión, consulta de rutas asignadas,
+                            registro de recolecciones, historial editable
+                            y reportes con indicadores y gráficos.
+                        </p>
+
+                        <div class="proyecto-tecnologias">
+
+                            <span>Aplicación móvil</span>
+                            <span>Gestión de residuos</span>
+                            <span>Reportes y gráficos</span>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             EDUCACION
+        ================================== -->
+
+        <section id="educacion" class="seccion seccion-alterna">
+
+            <div class="container reveal">
+
+                <div class="encabezado-seccion">
+
+                    <span class="etiqueta">FORMACIÓN ACADÉMICA</span>
+
+                    <h2>Mi <span>educación</span></h2>
+
+                    <p>
+                        Formación y aprendizaje profesional.
+                    </p>
+
+                </div>
+
+
+                <div class="educacion-contenedor">
+
+                    <div class="educacion-linea"></div>
+
+                    <div class="educacion-card">
+
+                        <div class="educacion-icono">
+                            <i class="fas fa-university"></i>
+                        </div>
+
+                        <div class="educacion-info">
+
+                            <span class="educacion-fecha">
+                                2024 - 2026
+                            </span>
+
+                            <h3>SENATI</h3>
+
+                            <h4>
+                                Ingeniería de Software con
+                                Inteligencia Artificial
+                            </h4>
+
+                            <p>
+                                Formación académica enfocada en
+                                programación, desarrollo de software,
+                                bases de datos, inteligencia artificial
+                                y tecnologías web.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             CONTACTO
+        ================================== -->
+
+
+<section id="contacto" class="seccion">
+
+    <div class="container reveal">
+
+        <div class="encabezado-seccion">
+            <span class="etiqueta">HABLEMOS</span>
+
+            <h2>Conectemos <span>juntos</span></h2>
+
+            <p>
+                ¿Tienes alguna propuesta, proyecto o idea?
+                Me gustaría conocerla. Puedes comunicarte conmigo
+                mediante cualquiera de los siguientes medios.
+            </p>
+        </div>
+
+        <div class="contacto-contenedor">
+
+            <!-- INFORMACION DE CONTACTO -->
+            <div class="contacto-info">
+
+                <h3>¡Hablemos de tecnología!</h3>
+
+                <p class="contacto-descripcion">
+                    Estoy interesado en seguir aprendiendo,
+                    compartir conocimientos y participar en
+                    nuevos proyectos relacionados con el
+                    desarrollo de software y la inteligencia artificial.
+                </p>
+
+                <!-- CORREO -->
+                <a class="contacto-item"
+                   href="https://mail.google.com/mail/?view=cm&fs=1&to=huamanleandrocarlos@gmail.com"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <div class="contacto-icono">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <h4>Correo electrónico</h4>
+                        <span>huamanleandrocarlos@gmail.com</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square contacto-flecha"></i>
+                </a>
+
+                <!-- LINKEDIN -->
+                <a class="contacto-item"
+                   href="https://www.linkedin.com/in/carlos-huamanleandro-42a82a3b3/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <div class="contacto-icono">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <span>Mi perfil profesional</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square contacto-flecha"></i>
+                </a>
+
+                <!-- GITHUB -->
+                <a class="contacto-item"
+                   href="https://github.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <div class="contacto-icono">
+                        <i class="fab fa-github"></i>
+                    </div>
+
+                    <div>
+                        <h4>GitHub</h4>
+                        <span>Mis proyectos y repositorios</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square contacto-flecha"></i>
+                </a>
+
+                <!-- DESCARGAR CV -->
+                <div class="contacto-descarga">
+
+                    <a href="CARLOS HUAMAN LEANDRO (CV).pdf"
+                       download
+                       class="btn btn-principal">
+
+                        <i class="fas fa-file-pdf"></i>
+                        Descargar mi CV
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORMULARIO DE CONTACTO -->
+            <div class="contacto-formulario">
+
+                <h3>Envíame un mensaje</h3>
+
+                <p>Completa los siguientes campos para contactarme.</p>
+
+                <form id="formContacto">
+
+                    <div class="campo-contacto">
+                        <label for="nombreContacto">Nombre</label>
+
+                        <input type="text"
+                               id="nombreContacto"
+                               placeholder="Tu nombre"
+                               required>
+                    </div>
+
+                    <div class="campo-contacto">
+                        <label for="correoContacto">Correo electrónico</label>
+
+                        <input type="email"
+                               id="correoContacto"
+                               placeholder="ejemplo@gmail.com"
+                               required>
+                    </div>
+
+                    <div class="campo-contacto">
+                        <label for="asuntoContacto">Asunto</label>
+
+                        <input type="text"
+                               id="asuntoContacto"
+                               placeholder="Motivo del mensaje"
+                               required>
+                    </div>
+
+                    <div class="campo-contacto">
+                        <label for="mensajeContacto">Mensaje</label>
+
+                        <textarea id="mensajeContacto"
+                                  rows="5"
+                                  placeholder="Escribe tu mensaje aquí..."
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-principal btn-enviar">
+
+                        <i class="fas fa-paper-plane"></i>
+                        Preparar mensaje
+
+                    </button>
+
+                    <p class="formulario-nota">
+                        <i class="fas fa-info-circle"></i>
+                        Se abrirá Gmail con tu mensaje preparado para enviarlo.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- =================================
+         PIE DE PAGINA
+    ================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 Carlos Huaman.
+                Portafolio académico.
+            </p>
+
+            <a href="#inicio" class="volver-inicio"
+               aria-label="Volver al inicio">
+
+                <i class="fas fa-arrow-up"></i>
+
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
