@@ -264,6 +264,7 @@
                         Escucha mi presentación profesional.
                     </p>
         
+                    <!-- REPRODUCTOR DE AUDIO -->
                     <audio controls preload="none">
                         <source src="audio/elevator-pitch.mp3" type="audio/mpeg">
                         Tu navegador no admite la reproducción de audio.
@@ -273,12 +274,21 @@
                         Presentación personal
                     </span>
         
-                    <div class="pitch-guion">
-                        <h3><i class="fas fa-file-alt"></i> Mi presentación</h3>
+                    <!-- BOTÓN PARA MOSTRAR EL GUION -->
+                    <button type="button" id="btnGuion" class="btn-guion">
+                        <i class="fas fa-file-alt"></i>
+                        Ver guion de mi presentación
+                    </button>
         
-                        <p>
-                            Hola, ¿qué tal?
-                        </p>
+                    <!-- GUION OCULTO INICIALMENTE -->
+                    <div class="pitch-guion" id="guionPresentacion" style="display: none;">
+        
+                        <h3>
+                            <i class="fas fa-file-alt"></i>
+                            Mi presentación
+                        </h3>
+        
+                        <p>Hola, ¿qué tal?</p>
         
                         <p>
                             Mi nombre es Carlos Huaman Leandro y soy estudiante
@@ -322,6 +332,7 @@
                         <p>
                             ¡Muchas gracias por escucharme!
                         </p>
+        
                     </div>
         
                 </div>
