@@ -1371,9 +1371,7 @@ body.modo-claro .contacto-item:hover {
 
 }
 
-/* =====================================
-   SECCIÓN ELEVATOR PITCH
-===================================== */
+/* SECCIÓN ELEVATOR PITCH */
 
 .pitch-contenedor {
     max-width: 750px;
@@ -1412,8 +1410,6 @@ body.modo-claro .contacto-item:hover {
     line-height: 1.7;
 }
 
-/* REPRODUCTOR DE AUDIO */
-
 .pitch-contenedor audio {
     display: block;
     width: 100%;
@@ -1425,63 +1421,13 @@ body.modo-claro .contacto-item:hover {
     display: block;
     width: 100%;
     text-align: center;
-    margin: 10px auto 0;
+    margin-top: 10px;
     font-size: 13px;
     opacity: 0.7;
 }
 
-/* BOTÓN DEL GUION */
-
-.btn-guion {
-    margin-top: 25px;
-    padding: 12px 22px;
-    border: none;
-    border-radius: 8px;
-    background: var(--color-principal, #2563eb);
-    color: white;
-    font-family: inherit;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-guion:hover {
-    transform: translateY(-3px);
-    opacity: 0.9;
-}
-
-/* CONTENIDO DEL GUION */
-
-.pitch-guion {
-    width: 100%;
-    margin-top: 30px;
-    padding: 25px;
-    text-align: left;
-    border-top: 1px solid var(--color-borde, #343b4b);
-}
-
-.pitch-guion h3 {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.pitch-guion p {
-    line-height: 1.8;
-    margin-bottom: 16px;
-}
-
-/* DISEÑO RESPONSIVE */
-
 @media (max-width: 600px) {
     .pitch-contenedor {
         padding: 25px 18px;
-    }
-
-    .pitch-guion {
-        padding: 20px 5px;
-    }
-
-    .btn-guion {
-        max-width: 100%;
     }
 }
