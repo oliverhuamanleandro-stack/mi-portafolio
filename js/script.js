@@ -500,35 +500,3 @@ if (formularioContacto) {
     });
     
 }
-
-// =====================================
-// MOSTRAR Y OCULTAR GUION DEL ELEVATOR PITCH
-// =====================================
-
-const btnGuion = document.getElementById("btnGuion");
-const guionPresentacion = document.getElementById("guionPresentacion");
-
-if (btnGuion && guionPresentacion) {
-
-    btnGuion.addEventListener("click", function () {
-
-        if (guionPresentacion.style.display === "none") {
-
-            guionPresentacion.style.display = "block";
-
-            btnGuion.innerHTML =
-                '<i class="fas fa-eye-slash"></i> Ocultar guion';
-
-        } else {
-
-            guionPresentacion.style.display = "none";
-
-            btnGuion.innerHTML =
-                '<i class="fas fa-file-alt"></i> Ver guion de mi presentación';
-
-        }
-
-    });
-
-}
-
